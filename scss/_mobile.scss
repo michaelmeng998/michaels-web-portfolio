@@ -34,7 +34,7 @@
 
 @include media_std_laptop {
   .FirstName {
-    color: blue;
+    //color: blue;
     font-size: 8rem;
   }
   main {
@@ -58,7 +58,7 @@
   }
   .FirstName {
     position: center;
-    color: yellow;
+    //color: yellow;
     font-size: 6.5rem;
   }
 
@@ -77,7 +77,7 @@
 @include mediaIpad {
   main {
     .FirstName {
-      color: green;
+      //color: green;
       margin-top: 2rem;
       font-size: 6.5rem;
     }
@@ -185,7 +185,7 @@
 //Tablets and Small Laptops
 @include mediaMd {
   .FirstName {
-    color: red;
+    //color: red;
     position: absolute;
   }
   main {
@@ -303,7 +303,7 @@
   }
   .FirstName {
     position: relative;
-    color: pink;
+    // color: pink;
     margin-top: -2rem;
     font-size: 5rem;
   }
@@ -468,7 +468,7 @@
 
 @include mediaIphone {
   .FirstName {
-    color: grey;
+    //color: grey;
     margin-top: -3rem;
     font-size: 4rem;
     //@while condition {
