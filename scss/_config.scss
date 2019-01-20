@@ -57,37 +57,31 @@
 }
 
 @mixin mediaSm {
-  @media screen and (max-width: 615px) and (min-height: 875px) {
+  @media screen and (max-width: 500px) and (max-height: 880px) {
     @content;
   }
 }
-/*
-@mixin mediaIpad {
-  @media screen and (max-width: 770px) and (min-height: 798px) {
-    @content;
-  }
-}*/
 
 @mixin mediaIpad {
   @media screen and (max-width: 770px) and (min-height: 1020px) {
     @content;
   }
 }
-//952
+
 @mixin mediaMd {
-  @media screen and (max-width: 768px) and (min-height: 880px) {
+  @media screen and (max-width: 768px) and (min-width: 430px) and (max-height: 880px) {
     @content;
   }
 }
 
 @mixin media_std_laptop {
-  @media screen and (max-width: 1290px) and (min-height: 798px) {
+  @media screen and (max-width: 1290px) and (max-height: 780px) {
     @content;
   }
 }
 
 @mixin mediaLg {
-  @media screen and (min-width: 769px) and (max-width: 1170px) and (min-height: 880px) {
+  @media screen and (min-width: 769px) and (max-width: 1170px) and (max-height: 880px) and (min-height: 850px) {
     @content;
   }
 }

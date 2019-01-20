@@ -24,9 +24,9 @@
   }
 
   .title {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     position: relative;
     font-weight: 800;
   }
@@ -34,13 +34,12 @@
 
 @include media_std_laptop {
   .FirstName {
-    //color: blue;
-    //position: fixed;
+    color: blue;
     font-size: 8rem;
   }
   main {
     .icons {
-      margin-top: 415px;
+      margin-top: 350px;
     }
   }
 
@@ -54,16 +53,24 @@
 @include mediaLg {
   main {
     .icons {
-      margin-top: 500px;
+      margin-top: 475px;
     }
   }
   .FirstName {
-    //color: yellow;
+    position: center;
+    color: yellow;
     font-size: 6.5rem;
   }
 
   .project {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  article {
+    column-count: 2;
+    break-inside: avoid;
+    padding: 1rem;
+    column-gap: 2rem;
   }
 }
 
@@ -71,16 +78,18 @@
   main {
     .FirstName {
       color: green;
+      margin-top: 2rem;
+      font-size: 6.5rem;
     }
     .icons {
-      margin-top: 400px;
+      margin-top: 475px;
     }
   }
 
   .title {
     font-size: 1.25rem;
     text-align: center;
-    margin-top: 7rem;
+    margin-top: 6rem;
     position: relative;
     font-weight: 800;
   }
@@ -176,13 +185,13 @@
 //Tablets and Small Laptops
 @include mediaMd {
   .FirstName {
-    //color: red;
-    font-size: 5rem;
+    color: red;
+    position: absolute;
   }
   main {
     .icons {
       //580
-      margin-top: 300px;
+      margin-top: 600px;
     }
   }
   .FirstName {
@@ -190,9 +199,9 @@
   }
 
   .title {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     text-align: center;
-    margin-top: 15rem;
+    margin-top: 1rem;
     position: relative;
     font-weight: 800;
   }
@@ -267,7 +276,7 @@
   }
 
   article {
-    column-count: 2;
+    column-count: 1;
     break-inside: avoid;
     padding: 1rem;
     column-gap: 2rem;
@@ -293,7 +302,8 @@
     }
   }
   .FirstName {
-    //color: pink;
+    position: relative;
+    color: pink;
     margin-top: -2rem;
     font-size: 5rem;
   }
@@ -449,28 +459,30 @@
     }
   }
   .text-secondary2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .box-descrp {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
 @include mediaIphone {
   .FirstName {
+    color: grey;
     margin-top: -3rem;
     font-size: 4rem;
+    //@while condition {
   }
 
   main {
     .icons {
-      margin-top: 100px;
+      margin-top: 150px;
     }
   }
 
   .title {
     font-size: 1.05rem;
-    margin-top: 12rem;
+    margin-top: 10rem;
   }
   main {
     align-items: center;
@@ -560,10 +572,10 @@
   }
 
   .text-secondary2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .box-descrp {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -671,9 +683,9 @@
   }
 
   .text-secondary2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .box-descrp {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
