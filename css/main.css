@@ -344,7 +344,6 @@ article {
 
 @media screen and (max-width: 1290px) and (max-height: 780px) {
   .FirstName {
-    color: blue;
     font-size: 8rem; }
   main .icons {
     margin-top: 350px; }
@@ -357,7 +356,6 @@ article {
     margin-top: 475px; }
   .FirstName {
     position: center;
-    color: yellow;
     font-size: 6.5rem; }
   .project {
     grid-template-columns: repeat(2, 1fr); }
@@ -369,7 +367,6 @@ article {
 
 @media screen and (max-width: 770px) and (min-height: 1020px) {
   main .FirstName {
-    color: green;
     margin-top: 2rem;
     font-size: 6.5rem; }
   main .icons {
@@ -429,7 +426,6 @@ article {
 
 @media screen and (max-width: 768px) and (min-width: 430px) and (max-height: 880px) {
   .FirstName {
-    color: red;
     position: absolute; }
   main .icons {
     margin-top: 600px; }
@@ -493,7 +489,6 @@ article {
     margin-top: 150px; }
   .FirstName {
     position: relative;
-    color: pink;
     margin-top: -2rem;
     font-size: 5rem; }
   .title {
@@ -586,7 +581,6 @@ article {
 
 @media screen and (max-width: 418px) and (max-height: 740px) {
   .FirstName {
-    color: grey;
     margin-top: -3rem;
     font-size: 4rem; }
   main .icons {
